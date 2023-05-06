@@ -1,5 +1,5 @@
 import style from './App-style.module.css';
-import { Form } from './components/Form/Form';
+import { FormBooking } from './components/Form/Form';
 import photo from './images/peregovornaya.jpg';
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
         <h1 className={style.title}>Форма бронирования переговорной</h1>
         <img src={photo} alt="Переговорная" className={style.photo} />
       </div>
-      <Form />
+      <FormBooking />
     </div>
   );
 };

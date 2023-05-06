@@ -4,11 +4,11 @@ import {
   tailLayoutBtn,
   tailLayoutMobile,
 } from '../../utils/settingsForm';
-import { Button, DatePicker, Select } from 'antd';
+import { Button, DatePicker, Select, Form } from 'antd';
 import TextArea from 'antd/es/input/TextArea';
 import style from './form-style.module.css';
 
-export const Form = () => {
+export const FormBooking = () => {
   const [tailLayout, setTailLayout] = useState(tailLayoutBtn);
   const [form] = Form.useForm();
   const { RangePicker } = DatePicker;
